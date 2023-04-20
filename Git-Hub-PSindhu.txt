@@ -1,0 +1,187 @@
+public class EmppJava {
+public static void main(String args[])
+{
+EmppJava e=new EmppJava();
+int empid;
+int companyid;
+char empname;
+char empcomppany;
+e.EmmpJava();
+public EmmpJava()
+{
+int empidd;
+int companyyid;
+empid=10;
+companyid=101;
+empname="Sri";
+empcompany="ABC";
+}
+
+
+}
+}
+empid empname empsalary deptid
+1       abc 10000        1
+2         def             20000       1
+3         xyz            10000      2
+
+deptid deptname
+1           java
+2          dotnet
+
+
+
+select count(empid) from employeetable where deptname="java";
+
+public empdetails()
+{
+int empid=
+}
+
+<html>
+<head>
+<title>Login Form</title>
+</head>
+<body>
+<a href="Login.html">Login</a>
+============================================================
+</body>
+</html>
+<html>
+<head>
+<title>Login Form1</title>
+</head>
+<body>
+<input type="Login" value="Login">
+<input type="name" value="name">
+<input type="password" value="password">
+<input type="submit" value="submit">
+<input type="cancel" value="cancel">
+</body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<center>
+ <h1>
+  Employee Details
+   </h1>
+   </center>
+   
+<meta charset="ISO-8859-1">
+
+<title>Employee Details Emp 1 </title>
+
+</head>
+
+<body>
+
+<a href="Food1Canteen.html">Food 1 Canteen</a>  <br><br>
+<a href="EmpDetailsJSP.html">Employee Details JSP</a><br><br>
+<a href="Submit.html">Submit</a>
+
+<center>
+
+<form> <label for="employeecode">Employee code <input type="text" id="employeecode" name="employeecode">
+
+</label>
+
+</form>
+
+ <br>
+
+ <br>
+<form>
+<br><br>
+<input type="Submit" value="Submit">
+<br><br>
+
+</form>
+
+</center>
+
+</body>
+
+</html>
+
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="ISO-8859-1">
+<title>Employee - Form</title>
+</head>
+<!-- Important Program -->
+<body>
+<form action="insertPerson.jsp" method="POST">
+<center>
+
+<label for="fname">Employee No.:</label>
+<input type="text" id="eno" name="eno" value=""><br>
+<label for="fname">Employee Name:</label>
+<input type="text" id="eid" name="ename" value=""><br>
+<!--<label for="lname">Last name:</label><br>
+               <input type="text" id="lname" name="lname" value=""><br><br>
+            <label for="emailid">E-mail id:</label>
+<input type="text" id="emailid" name="emailid" ><br><br>
+<input type="submit" value="Submit">
+<label for="fname">City</label><br>
+<input type="text" id="city" name="city" value=""><br>-->
+
+<input type="submit" value="Submit">
+</center>
+</form>
+</body>
+</html>
+<html>
+<a href="insertPerson.jsp">insertPerson</a>
+</html>
+<html>
+Welcome to C Programming Language
+</html>
+
+
+
+
+
+<%@ page language="java" contentType="text/html; charset=ISO-8859-1"
+    pageEncoding="ISO-8859-1"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Exam System J.S.P.</title>
+</head>
+<body>
+<h1> Food Canteen </h1>
+<%Tiffin
+Lunch
+Snacks  %>
+import javax.script.*;
+
+public class EvalScript {
+    public static void main(String[] args) throws Exception {
+        ScriptEngineManager manager = new ScriptEngineManager();
+        ScriptEngine engine = manager.getEngineByName("nashorn");
+
+        // evaluate JavaScript code
+        engine.eval("print('Hello, World')");
+    }
+}
+</body>
+</html>
+import javax.script.*;
+
+public class EvalScript {
+    public static void main(String[] args) throws Exception {
+        ScriptEngineManager manager = new ScriptEngineManager();
+        ScriptEngine engine = manager.getEngineByName("nashorn");
+
+        // evaluate JavaScript code
+        engine.eval("print('Hello, World')");
+    }
+    }
+
